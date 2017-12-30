@@ -2,6 +2,15 @@
 Run interactive android exploits in linux by giving the users easy interface to exploit android devices
 Uses an intergration with Metaspoilt Framework by giving the user an easy interface to create payloads and launch android exploits.
 Am also planning to add more features like:
-1.) SMS spoofing.
-2.) SIP spoofing.
-3.) Android rooting.
+
+SMS spoofing
+=====
+Feature would allow the user to send sms's with fake id
+
+SIP spoofing
+=====
+Feature would allow user make fake VOIP calls
+
+Android rooting
+=====
+Feature would allow user generate an apk file which automatically roots the phone it's installed in.
