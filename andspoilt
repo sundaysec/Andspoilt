@@ -1,0 +1,3 @@
+﻿#!/usr/bin/python
+import andspoilt
+andspoilt.main()
