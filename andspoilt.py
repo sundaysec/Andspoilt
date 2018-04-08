@@ -88,7 +88,8 @@ Use "back" to navigate to previous commands
 
 
 				if dark == "3":
-					print ("\033[1;35mYou are using the latest version of Andspoilt\033[1;m")
+					cwdpath = os.getcwd()
+					subprocess.Popen("%s/src/update.sh" % cwdpath, shell=True).wait()
 
 				def blue():
 					while dark == "2":
