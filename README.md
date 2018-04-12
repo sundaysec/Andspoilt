@@ -6,8 +6,18 @@ Uses an intergration with Metaspoilt Framework by giving the user an easy interf
 
 Current Additional feature is a simple web server for file distribution
 
-![alt text](https://github.com/pythonofhades/Andspoilt/blob/master/and.jpg)
+Installing
+=====
 
+![alt text](https://github.com/pythonofhades/Andspoilt/blob/master/src/install1.jpg)
+
+Run the terminal as root type:
+
+`git clone https://github.com/pythonofhades/Andspoilt.git`
+
+`cd /Andspoilt`
+
+`python ./setup.py install`
 
 SMS spoofing(On Development)
 =====
