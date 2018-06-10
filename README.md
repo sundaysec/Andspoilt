@@ -13,7 +13,7 @@ Installing
 
 Run the terminal as root type:
 
-`git clone https://github.com/pythonofhades/Andspoilt.git`
+`git clone https://github.com/philemonsunday/Andspoilt.git`
 
 `cd /Andspoilt`
 
