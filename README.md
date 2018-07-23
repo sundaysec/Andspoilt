@@ -13,7 +13,7 @@ Installing
 
 Run the terminal as root type:
 
-`git clone https://github.com/krypt-0n/Andspoilt.git`
+`git clone https://github.com/sundaysec/Andspoilt.git`
 
 `cd /Andspoilt`
 
