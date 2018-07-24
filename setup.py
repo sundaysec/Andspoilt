@@ -58,7 +58,7 @@ if platform.system() == 'Linux':
         subprocess.Popen("chmod +x /usr/bin/andspoilt", shell=True).wait()
         subprocess.Popen("chmod +x %s/src/run.sh" % cwdpath, shell=True).wait()
         subprocess.Popen("cp %s/src/ad_support.rb /usr/share/metasploit-framework/tools/recon/ad_support.rb" % cwdpath, shell=True).wait()
-        subprocess.Popen("chmod +x /usr/share/metasploit-framework/tools/recon/ad_support.rb" % cwdpath, shell=True).wait()
+        subprocess.Popen("chmod +x /usr/share/metasploit-framework/tools/recon/ad_support.rb" shell=True).wait()
         subprocess.Popen("%s/src/run.sh" % cwdpath, shell=True).wait()
         time.sleep(2)
         os.system("clear")
