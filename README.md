@@ -1,5 +1,5 @@
 # Andspoilt
->Unfortunately am sundaysec is experiencing <b>Kernel Panic</b> called examinations...
+>Unfortunately sundaysec is experiencing <b>Kernel Panic</b> called examinations...
 >Will commit soon :)
 
 Run interactive android exploits in linux by giving the users easy interface to exploit android devices
