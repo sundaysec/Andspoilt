@@ -1,6 +1,4 @@
 # Andspoilt
->Unfortunately sundaysec is experiencing <b>Kernel Panic</b> called examinations...
->Will commit soon :)
 
 Run interactive android exploits in linux by giving the users easy interface to exploit android devices
 Uses an intergration with Metaspoilt Framework by giving the user an easy interface to create payloads and launch android exploits.
